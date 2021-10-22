@@ -1,0 +1,50 @@
+body.login {}
+body.login div#login {} /* ログインフォームの幅、デフォルトでは320pxに指定 */
+body.login div#login h1 {} /* ログイン画面のロゴを囲む、指定されているのはtext-align: center;のみ */
+body.login div#login h1 a {
+	background-image: url(../img/logo-500x200.png);
+	background-size: 320px;
+	width: 320px;
+	height: 128px;
+}
+.login #login_error,
+.login .message,
+.login .success {
+	border-left: 4px solid red;
+}
+input[type=checkbox]:focus,
+input[type=color]:focus,
+input[type=date]:focus,
+input[type=datetime-local]:focus,
+input[type=datetime]:focus,
+input[type=email]:focus,
+input[type=month]:focus,
+input[type=number]:focus,
+input[type=password]:focus,
+input[type=radio]:focus,
+input[type=search]:focus,
+input[type=tel]:focus,
+input[type=text]:focus,
+input[type=time]:focus,
+input[type=url]:focus,
+input[type=week]:focus,
+select:focus,
+textarea:focus {
+  border-color: gray;
+  box-shadow: 0 0 0 1px gray;
+  outline: 2px solid transparent;
+}
+body.login div#login form#loginform {} /* ログインフォーム全体のセレクタ */
+body.login div#login form#loginform p {} /* フォーム入力欄のlabelとinputを囲むpタグ */
+body.login div#login form#loginform p label {} /* フォーム入力欄のラベル */
+body.login div#login form#loginform input {}
+body.login div#login form#loginform input#user_login {}
+body.login div#login form#loginform input#user_pass {} /*　パスワード入力欄のみのセレクタ　*/
+body.login div#login form#loginform p.forgetmenot {} /* ログイン状態を保存するチェックボックスとテキストを囲むpタグ */
+body.login div#login form#loginform p.forgetmenot input#rememberme {}  /* 「ログイン状態を保存する」テキスト */
+body.login div#login form#loginform p.submit {} /* ログインボタンを囲むpタグ */
+body.login div#login form#loginform p.submit input#wp-submit {} /* ログインボタン */
+body.login div#login p#nav {} /* 「パスワードをお忘れですか」を囲むpタグ */
+body.login div#login p#nav a {} /* 「パスワードをお忘れですか」のaタグ */
+body.login div#login p#backtoblog {} /* 「～へ戻る」を囲むpタグ */
+body.login div#login p#backtoblog a {} /* 「～へ戻る」のaタグ */

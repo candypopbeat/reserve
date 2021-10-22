@@ -1,0 +1,8 @@
+nav.navbar {
+	top: 32px;
+}
+@media screen and (max-width: 782px){
+	nav.navbar {
+		top: 46px;
+	}
+}
