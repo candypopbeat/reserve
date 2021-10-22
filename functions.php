@@ -2,11 +2,11 @@
 /**
  * 定義
  */
-$closeKey = "close"; //応募締め切りキーワード
-$span = 60; // 60日分のスケジュールにする
+$closeKey  = "close"; //応募締め切りキーワード
+$span      = 60; // 60日分のスケジュールにする
 $divideMin = 30; // 30分区切り
-$iniStart = 10; // 受付10時スタート
-$iniEnd = 18; // 受付18時エンド
+$iniStart  = 10; // 受付10時スタート
+$iniEnd    = 18; // 受付18時エンド
 $iniDivide = ($iniEnd - $iniStart) * 60 / $divideMin; // タイムテーブルの時間刻み
 
 
